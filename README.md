@@ -2,9 +2,9 @@
 ## Comparing Grad-CAM and RISE: Localization and Faithfulness in CNN Explanations
 
 Before running this project, make sure you have Grad-CAM installed. You can install it by running the following command:
-'''
-pip install grad-cam
-'''
+
+`pip install grad-cam`
+
 
 Since RISE runs best on CUDA due to its computational complexity, the code was transferred to Google Colab to enable GPU support, as my local computer does not have access to GPU processing.
 

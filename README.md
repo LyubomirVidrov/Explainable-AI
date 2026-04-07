@@ -11,13 +11,13 @@ Since RISE runs best on CUDA due to its computational complexity, the code was t
 The only change made to Main.py concerns how the other .py files are accessed. In Google Colab, to access the required files, you need to connect your Google Drive, where all project files should be stored.
 
 You can mount your Google Drive by running the following code:
+```python
+from google.colab import drive
+drive.mount('/content/drive')
 
-`from google.colab import drive
-drive.mount('/content/drive')`
-
-`import sys
-sys.path.append('/content/drive/MyDrive')`
-
+import sys
+sys.path.append('/content/drive/MyDrive')
+```
 After completing these steps, everything should be set up and you can proceed with running the rest of the project.
 
 

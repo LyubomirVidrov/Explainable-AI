@@ -22,7 +22,7 @@ sys.path.append('/content/drive/MyDrive')
 
 After completing these steps, everything should be set up and you can proceed with running the rest of the project.
 
-If it happens that you do not have access to GPU, you can run the code by lowering the randomly generated maps from 8000 to aorunf 500 like so: 
+If you do not have access to a GPU, you can still run the code by reducing the number of randomly generated maps from 8000 to around 500, as shown below:
 
 ```python
 explainer.generate_masks(N=500, s=7, p1=0.5) 

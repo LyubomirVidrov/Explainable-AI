@@ -25,6 +25,7 @@ After completing these steps, everything should be set up and you can proceed wi
 
 ### References
 
+```bibtex
 @misc{jacobgilpytorchcam,
   title={PyTorch library for CAM methods},
   author={Jacob Gildenblat and contributors},
@@ -32,10 +33,13 @@ After completing these steps, everything should be set up and you can proceed wi
   publisher={GitHub},
   howpublished={\url{https://github.com/jacobgil/pytorch-grad-cam}},
 }
+```
 
+```bibtex
 @inproceedings{Petsiuk2018rise,
   title = {RISE: Randomized Input Sampling for Explanation of Black-box Models},
   author = {Vitali Petsiuk and Abir Das and Kate Saenko},
   booktitle = {Proceedings of the British Machine Vision Conference (BMVC)},
   year = {2018}
 }
+```
